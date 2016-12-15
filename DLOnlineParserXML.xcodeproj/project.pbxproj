@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ACB6BAD1E0236C300FCB180 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB6BAC1E0236C300FCB180 /* main.m */; };
+		6ACB6BB01E0236C300FCB180 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB6BAF1E0236C300FCB180 /* AppDelegate.m */; };
+		6ACB6BB21E0236C300FCB180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ACB6BB11E0236C300FCB180 /* Assets.xcassets */; };
+		6ACB6BB51E0236C300FCB180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACB6BB31E0236C300FCB180 /* LaunchScreen.storyboard */; };
+		6AD00DAE1E024C8300E912FE /* DLNoteInfomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD00DAB1E024C8300E912FE /* DLNoteInfomation.m */; };
+		6AD00DAF1E024C8300E912FE /* DLOnlineParserNotesXMLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD00DAD1E024C8300E912FE /* DLOnlineParserNotesXMLManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6ACB6BA81E0236C300FCB180 /* DLOnlineParserXML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLOnlineParserXML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACB6BAC1E0236C300FCB180 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ACB6BAE1E0236C300FCB180 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ACB6BAF1E0236C300FCB180 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6ACB6BB11E0236C300FCB180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ACB6BB41E0236C300FCB180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ACB6BB61E0236C300FCB180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD00DAA1E024C8300E912FE /* DLNoteInfomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNoteInfomation.h; sourceTree = "<group>"; };
+		6AD00DAB1E024C8300E912FE /* DLNoteInfomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNoteInfomation.m; sourceTree = "<group>"; };
+		6AD00DAC1E024C8300E912FE /* DLOnlineParserNotesXMLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLOnlineParserNotesXMLManager.h; sourceTree = "<group>"; };
+		6AD00DAD1E024C8300E912FE /* DLOnlineParserNotesXMLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLOnlineParserNotesXMLManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ACB6BA51E0236C300FCB180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ACB6B9F1E0236C300FCB180 = {
+			isa = PBXGroup;
+			children = (
+				6ACB6BAA1E0236C300FCB180 /* DLOnlineParserXML */,
+				6ACB6BA91E0236C300FCB180 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ACB6BA91E0236C300FCB180 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ACB6BA81E0236C300FCB180 /* DLOnlineParserXML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ACB6BAA1E0236C300FCB180 /* DLOnlineParserXML */ = {
+			isa = PBXGroup;
+			children = (
+				6AD00DA91E024C8300E912FE /* onLineParserNoteXML */,
+				6ACB6BAE1E0236C300FCB180 /* AppDelegate.h */,
+				6ACB6BAF1E0236C300FCB180 /* AppDelegate.m */,
+				6ACB6BB11E0236C300FCB180 /* Assets.xcassets */,
+				6ACB6BB31E0236C300FCB180 /* LaunchScreen.storyboard */,
+				6ACB6BB61E0236C300FCB180 /* Info.plist */,
+				6ACB6BAB1E0236C300FCB180 /* Supporting Files */,
+			);
+			path = DLOnlineParserXML;
+			sourceTree = "<group>";
+		};
+		6ACB6BAB1E0236C300FCB180 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ACB6BAC1E0236C300FCB180 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AD00DA91E024C8300E912FE /* onLineParserNoteXML */ = {
+			isa = PBXGroup;
+			children = (
+				6AD00DAA1E024C8300E912FE /* DLNoteInfomation.h */,
+				6AD00DAB1E024C8300E912FE /* DLNoteInfomation.m */,
+				6AD00DAC1E024C8300E912FE /* DLOnlineParserNotesXMLManager.h */,
+				6AD00DAD1E024C8300E912FE /* DLOnlineParserNotesXMLManager.m */,
+			);
+			path = onLineParserNoteXML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ACB6BA71E0236C300FCB180 /* DLOnlineParserXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACB6BB91E0236C300FCB180 /* Build configuration list for PBXNativeTarget "DLOnlineParserXML" */;
+			buildPhases = (
+				6ACB6BA41E0236C300FCB180 /* Sources */,
+				6ACB6BA51E0236C300FCB180 /* Frameworks */,
+				6ACB6BA61E0236C300FCB180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLOnlineParserXML;
+			productName = DLOnlineParserXML;
+			productReference = 6ACB6BA81E0236C300FCB180 /* DLOnlineParserXML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ACB6BA01E0236C300FCB180 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zhangqi;
+				TargetAttributes = {
+					6ACB6BA71E0236C300FCB180 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6D3MH577A6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6ACB6BA31E0236C300FCB180 /* Build configuration list for PBXProject "DLOnlineParserXML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ACB6B9F1E0236C300FCB180;
+			productRefGroup = 6ACB6BA91E0236C300FCB180 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ACB6BA71E0236C300FCB180 /* DLOnlineParserXML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ACB6BA61E0236C300FCB180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACB6BB21E0236C300FCB180 /* Assets.xcassets in Resources */,
+				6ACB6BB51E0236C300FCB180 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ACB6BA41E0236C300FCB180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACB6BB01E0236C300FCB180 /* AppDelegate.m in Sources */,
+				6AD00DAF1E024C8300E912FE /* DLOnlineParserNotesXMLManager.m in Sources */,
+				6ACB6BAD1E0236C300FCB180 /* main.m in Sources */,
+				6AD00DAE1E024C8300E912FE /* DLNoteInfomation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6ACB6BB31E0236C300FCB180 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ACB6BB41E0236C300FCB180 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ACB6BB71E0236C300FCB180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6ACB6BB81E0236C300FCB180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ACB6BBA1E0236C300FCB180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6D3MH577A6;
+				INFOPLIST_FILE = DLOnlineParserXML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovely.DLOnlineParserXML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6ACB6BBB1E0236C300FCB180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6D3MH577A6;
+				INFOPLIST_FILE = DLOnlineParserXML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovely.DLOnlineParserXML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ACB6BA31E0236C300FCB180 /* Build configuration list for PBXProject "DLOnlineParserXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACB6BB71E0236C300FCB180 /* Debug */,
+				6ACB6BB81E0236C300FCB180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACB6BB91E0236C300FCB180 /* Build configuration list for PBXNativeTarget "DLOnlineParserXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACB6BBA1E0236C300FCB180 /* Debug */,
+				6ACB6BBB1E0236C300FCB180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ACB6BA01E0236C300FCB180 /* Project object */;
+}
